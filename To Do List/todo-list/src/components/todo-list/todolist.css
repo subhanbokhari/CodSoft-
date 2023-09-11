@@ -1,0 +1,80 @@
+body {
+  background: linear-gradient(to bottom right, #222f3e, #192a56);
+}
+
+.todolist-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-direction: column;
+}
+
+.header {
+  background: linear-gradient(to bottom right, #2c3e50, #3498db);
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+  width: 60%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+input[type="text"] {
+  font-size: 1rem;
+  border: none;
+  padding: 10px;
+  width: 60%;
+  background-color: #fff;
+  color: #333;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btnSubmit {
+  padding: 10px;
+  width: 25%;
+  background: linear-gradient(to right, #2980b9, #3498db);
+  color: #fff;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-items {
+  width: 60%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+}
+
+li {
+  position: relative;
+  background-color: #fff;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.list-items li:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.list-items li span {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #f44336;
+}
