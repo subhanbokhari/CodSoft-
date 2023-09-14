@@ -2,13 +2,17 @@
 
 body {
   transform: translateY(100px);
-  background: #eceff1;
+  background: black;
   text-align: center;
 }
 
 a {
   color: #212121;
   transition: opacity linear 0.3s;
+}
+
+p {
+  color: maroon;
 }
 
 a:hover {
@@ -24,7 +28,6 @@ a:hover {
 }
 
 .title {
-  font-family: "Lily Script One", cursive;
   font-size: 4em;
   margin: 20px 0px;
 }
@@ -32,7 +35,7 @@ a:hover {
 #profile img {
   margin: 0px auto;
   display: block;
-  border: solid 8px #607d8b;
+  border: solid 8px darkred;
 }
 
 #home p {
@@ -50,8 +53,8 @@ ul {
 }
 
 ul li {
-  color: #eceff1;
-  background-color: #313131;
+  color: darkred;
+  background-color: black;
   font-size: 15px;
   font-family: "Varela Round";
   display: inline-block;
@@ -76,10 +79,10 @@ ul li {
 
 #navigate .fa {
   font-size: 20px;
-  border: solid 1px #616161;
+  border: solid 1px darkred;
   padding: 15px 25px;
   margin: 0px 5px;
-  color: #212121;
+  color: darkgray;
   transition: opacity linear 0.3s;
   border-radius: 10px;
 }
